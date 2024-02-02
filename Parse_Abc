@@ -1,0 +1,44 @@
+public class Parse_Abc {
+public static void main(String[] args) {
+	Integer v1=Integer.valueOf("123");
+	int value1=v1.intValue();
+	System.out.println(value1);
+	
+	String value="123";
+	//BYTE
+	byte b=Byte.parseByte(value);
+	System.out.println(b);
+	
+	//SHORT
+	short s=Short.parseShort(value);
+	System.out.println(s);
+	
+	//FLOAT
+	float f=Float.parseFloat(value);
+	System.out.println(f);
+	
+	//LONG
+	long l=Long.parseLong(value);
+	System.out.println(l);
+	
+	//DOUBLE
+	double d=Double.parseDouble(value);
+	System.out.println(d);
+	
+	//BOOLEAN
+	boolean b1=Boolean.parseBoolean(value);
+	System.out.println(b1);
+	
+	boolean b2=Boolean.parseBoolean("true");
+	System.out.println(b2);
+	
+	boolean b3=Boolean.parseBoolean("false");
+	System.out.println(b3);
+	
+	boolean b4=Boolean.parseBoolean("pooja");
+	System.out.println(b4);
+
+
+
+}
+}
