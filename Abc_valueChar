@@ -1,0 +1,31 @@
+public class Abc_valueChar {
+public static void main(String[] args) {
+	char c= 'A';
+	Character ref=Character.valueOf(c);
+	char c2=ref.charValue();
+	System.out.println(c2);
+	
+	
+	//String to non-primitive
+	String s="hii";
+	String s1="true";
+	String s2="false";
+	Boolean s3=Boolean.valueOf(s);
+	Boolean s4=Boolean.valueOf(s1);
+	Boolean s5=Boolean.valueOf(s2);
+	
+	System.out.println(s3);
+	System.out.println(s4);
+	System.out.println(s5);
+	
+	
+	//Non-primitive to primitive
+	boolean b7=s3.booleanValue();
+	boolean b8=s4.booleanValue();
+	boolean b9=s5.booleanValue();
+	System.out.println(b7);
+	System.out.println(b8);
+	System.out.println(b9);
+
+}
+}
