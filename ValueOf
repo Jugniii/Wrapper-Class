@@ -1,0 +1,57 @@
+public class ValueOf {
+public static void main(String[] args) {
+	
+	//int
+	int c=10;
+	Integer v=Integer.valueOf(c);//Primitive data
+	System.out.println(v);
+	
+	Integer v1=Integer.valueOf("10");//String data
+	System.out.println(v1);
+	
+	Integer ref=Integer.valueOf("15",36);
+	System.out.println(ref);
+	
+	//byte
+	byte b=20;
+	Byte b1=Byte.valueOf(b);
+	System.out.println(b1);
+	
+	Byte b2=Byte.valueOf("20");
+	System.out.println(b2);//string data
+	
+	//short
+	short s=30;
+	Short s1=Short.valueOf(s);
+	System.out.println(s1);
+	
+	Short s2=Short.valueOf("30");//string data
+	System.out.println(s2);
+	
+	//long
+	long l=40;
+	Long l1=Long.valueOf(l);
+	System.out.println(l1);
+	
+	Long l2=Long.valueOf("40");//string data
+	System.out.println(l2);
+	
+	
+	//float
+	float f=5.23f;
+	Float f1=Float.valueOf(f);
+	System.out.println(f1);
+	
+	Float f2=Float.valueOf("5.23");
+	System.out.println(f2);//string data
+	
+	//double
+	double d=45.5d;
+	Double d1=Double.valueOf(d);
+	System.out.println(d1);
+	
+	Double d2=Double.valueOf("45.5");
+	System.out.println(d2);//string data
+	
+}
+}
